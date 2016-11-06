@@ -1,6 +1,50 @@
 @import url('https://fonts.googleapis.com/css?family=Lato');
 @import url('https://fonts.googleapis.com/css?family=Dosis');
+
+
+/*
+	General Styles
+*/
 body{
 	/*font-family: 'Lato', sans-serif;*/
 	font-family: 'Dosis', sans-serif;
+	color: #111;
+	position: relative;
+	overflow-x: hidden;
+}
+
+strong{
+	font-weight: 900;
+}
+p{
+	line-height: 24px;
+	font-weight: 300;
+}
+
+/*Anchors*/
+a,
+a:focus{
+	color: #E53935;
+}
+
+a:hover{
+	color: #B71C1C;
+	text-decoration: none;
+}
+section{
+	padding: 50px 0;
+}
+
+hr{
+	width: 85px;
+}
+hr.icon:after{
+	content: "\f123";
+	font-family: 'FontAwesome';
+	color: #E53935;
+	font-size: 1.5em;
+	background-color: #fff;
+	top: -0.8em;
+	position: relative;
+	padding: .30em;
 }
