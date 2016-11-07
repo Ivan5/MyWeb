@@ -175,3 +175,74 @@ hr.icon:after{
 	color: #B71C1C;
 	margin-top: -10px;
 }
+
+/*Core skills section*/
+#core{
+	background: url(../img/prueba2.jpg) fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: #fff;
+	/*height: 440px;*/
+	/*opacity: 0.6;*/
+}
+
+#core h1{
+	font-size: 48px;
+
+}
+#core h3{
+	font-weight: 300;
+	margin-top: 0;
+}
+
+#core p{
+	margin: 40px 0;
+}
+.button{
+	color: #fff;
+	font-size: 16px;
+	text-transform: uppercase;
+	border-bottom: 3px solid #fff;
+	border-radius: 2px;
+	padding-bottom: 10px;
+}
+.button:hover{
+	border-color: #B71C1C;
+}
+.progress{
+	height: 30px;
+	margin-bottom: 30px;
+	opacity: .78;
+	background-color: #000;
+	box-shadow: none;
+
+}
+.progress-bar{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b71c1c+0,ff5252+100 */
+background: #b71c1c; /* Old browsers */
+background: -moz-linear-gradient(left,  #b71c1c 0%, #ff5252 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(left,  #b71c1c 0%,#ff5252 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to right,  #b71c1c 0%,#ff5252 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b71c1c', endColorstr='#ff5252',GradientType=1 ); /* IE6-9 */
+
+}
+
+.titulo h5{
+	font-weight: 9000;
+	text-transform: uppercase;
+}
+/*portafolio section*/
+#portafolio .col-md-4{
+	padding: 0;
+}
+
+.portafolio-thumb,
+.portafolio-overlay{
+	height: 270px;
+	max-width: 390px;
+}
+#portafolio .portafolio-thumb img{
+	width: 100%;
+	height: 100%;
+}
