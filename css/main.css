@@ -129,11 +129,11 @@ hr.icon:after{
 
 /*About section*/
 #about{
-	background: url(../img/about.jpg) fixed;
+	background: url(../img/prueba2.jpg) fixed;
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
-	color: #B71C1C;
+	color: #fff;
 	height: 440px;
 	/*opacity: 0.6;*/
 }
@@ -141,11 +141,12 @@ hr.icon:after{
 	font-weight: bolder;
 	font-size: 30px;
 }
+
 #about p{
 	text-align: center;
 	font-weight: bolder;
 	font-size: 25px;
-	color: #D50000;
+	color: #fff;
 }
 
 /*i know section*/
@@ -245,4 +246,51 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b71c1c', end
 #portafolio .portafolio-thumb img{
 	width: 100%;
 	height: 100%;
+}
+#portafolio .portafolio-thumb{
+	overflow: hidden;
+	padding: 0;
+	margin: 0 auto;
+}
+#portafolio .portafolio-thumb .portafolio-overlay{
+	opacity: 0;
+	height: 100%;
+	width: 100%;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	text-align: center;
+	position: absolute;
+	/*background: -webkit-linear-gradient(left,  #b71c1c 0%,#ff5252 100%); /* Chrome10-25,Safari5.1-6 */
+	/*background: linear-gradient(to right,  #b71c1c 0%,#ff5252 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	/*filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b71c1c', endColorstr='#ff5252',GradientType=1 ); /* IE6-9 */
+	background: #EF5350;
+	padding: 20px 10px 20px 20px;
+	margin-left: auto;
+	margin-right: auto;
+	transition: all 0.2s ease-in-out;
+	-webkit-transition: all 0.2s ease-in-out;
+
+}
+#portafolio .portafolio-thumb:hover .portafolio-overlay{
+	opacity: .7;
+	cursor: pointer;
+}
+
+#portafolio .portafolio-thumb .portafolio-overlay h2{
+	color: #fff;
+	font-weight: 300;
+	border-top: 1px solid #fff;
+	border-bottom: 1px solid #fff;
+	display: inline-block;
+	padding: 5px 10px 10px 10px;
+}
+
+#portafolio .portafolio-thumb .portafolio-overlay a{
+	color: #fff;
+	font-size: 24px;
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
 }
