@@ -368,3 +368,41 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b71c1c', end
 	font-size: 12px;
 	padding: 5px 0;
 }
+
+/**Media Querys*/
+@media (max-width: 770px) {
+	.avatar{
+		width: 80px;
+		height: 80px;
+		margin: 0 auto;
+		margin-top: 20px;
+		border:2px solid #fff;
+		border-radius: 50%;
+		margin-bottom: 10px;
+	}
+	.logo{
+		font-size: 40px;
+		font-weight: 100;
+		border-top: 3px solid #fff;
+		border-bottom: 3px solid #fff;
+		display: inline-block;
+		padding: 0 20px 15px 20px;
+	}
+	#about h3{
+		font-weight: bold;
+		font-size: 20px;
+	}
+
+	#about p{
+		text-align: center;
+		font-weight: bold;
+		font-size: 20px;
+		color: #fff;
+	}
+	.skill-title h3{
+		font-size: 15px;
+	}
+	.progress-bars{
+		margin-top: 30px;
+	}
+}
