@@ -102,7 +102,7 @@ hr.icon:after{
 	border-top: 3px solid #fff;
 	border-bottom: 3px solid #fff;
 	display: inline-block;
-	padding: 0 20px 15px;
+	padding: 0 20px 15px 20px;
 }
 #home h3{
 	font-weight: 300;
@@ -293,4 +293,78 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b71c1c', end
 	position: absolute;
 	bottom: 20px;
 	right: 20px;
+}
+
+/**Quotes section*/
+#quotes{
+	background: url(../img/background.png) fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: #fff;
+	height: 440px;
+	position: relative;
+}
+
+/**Contact form*/
+.form-control{
+	height: 45px;
+	padding: 15px;
+	font-size: 16px;
+	color: #8c8c8c;
+	background-color:  #f5f5f5;
+	border: 1px solid #d1d1d1;
+	box-shadow: none;
+	font-weight: 300;
+}
+.form-control:focus{
+	box-shadow: none;
+	color: #B71C1C;
+	border-color: #B71C1C;
+	background-color: #fff;
+}
+.form-control::-webkit-placeholder{
+	color: #8c8c8c;
+}
+.form-control:focus::-webkit-placeholder{
+	color: #B71C1C;
+}
+/**Footer section*/
+#footer{
+	background: url(../img/background.png) fixed;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	color: #fff;
+	padding: 50px 0;
+}
+#footer .logo{
+	font-size: 46px;
+	padding: 0 20px 10px 20px;
+}
+
+#footer ul{
+	padding-left: 0;
+	margin-top: 10px;
+	display: block;
+}
+
+#footer ul li{
+	display: inline-block;
+}
+
+#footer ul a{
+	font-size: 30px;
+	color: #fff;
+	padding: 0 10px;
+}
+.copyrights{
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	text-align: center;
+	font-size: 12px;
+	padding: 5px 0;
 }
