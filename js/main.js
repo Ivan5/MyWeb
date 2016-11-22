@@ -8,5 +8,7 @@ $(function(){
 		singleItem: true
 	});
 
-	
+	new WOW().init();
+
+
 });
