@@ -306,6 +306,30 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b71c1c', end
 	position: relative;
 }
 
+.owl-carousel h4{
+	font-weight: 300;
+
+}
+.owl-carousel cite{
+	font-style:  normal;
+	font-size: 24px;
+	font-weight: 900;
+}
+.owl-carousel img{
+	width: 80px;
+	height: 80px;
+	border-radius: 5px;
+	margin: 20px 0;
+}
+
+.owl-carousel p{
+	font-weight: 300;
+}
+
+blockquote{
+	border-left: none;
+}
+
 /**Contact form*/
 .form-control{
 	height: 45px;
